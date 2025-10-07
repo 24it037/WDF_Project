@@ -1,0 +1,171 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff8f0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f9c5d1;
+  color: #222;
+  padding: 20px 0;
+  text-align: center;
+  border-bottom: 2px solid #e5a4b4;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #444;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e91e63;
+}
+
+/* Main product area */
+main {
+  padding: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  flex-wrap: nowrap;
+}
+
+td {
+  padding: 20px;
+  text-align: center;
+  vertical-align: top;
+  flex-wrap: nowrap;
+
+}
+
+/* Product image */
+.product-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #ff6699;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin: 8px 4px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: #e91e63;
+}
+
+/* Responsive image */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ============================= */
+/* Form container (Login & Sign Up style) */
+form {
+  max-width: 350px; /* Same width as login */
+  margin: 50px auto; /* Center form */
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f9a8c4;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ec407a;
+}
+
+form p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Error message styling */
+#errorMessage {
+  color: red;
+  font-size: 14px;
+  margin-top: -8px;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #e5a4b4;
+  font-size: 14px;
+  color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/*extra*/
+/* Remove table layout and use flexbox instead */
+.product-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: nowrap; /* keep in one line */
+  gap: 25px;
+  overflow-x: auto; /* allows horizontal scrolling if content overflows */
+  padding: 30px;
+}
+
+.product {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 15px;
+  width: 230px;
+  flex: 0 0 auto; /* keeps width fixed */
+}
+
+
+
+
